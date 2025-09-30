@@ -6,10 +6,10 @@ import java.util.*;
 @Repository
 public interface CabRepository  extends JpaRepository<Cab,Long> {
     List<Cab> findCabByCabModelContaining(String model);
-    List<Cab> findCAbByCabNumberContaining(String cabNumber);
+    List<Cab> findCabByCabNumberContaining(String cabNumber);
     List<Cab> findCabByDriverDriverNameContaining(String driverName);
     List<Cab>  findCabByDriverDriverNameContainingAndCabNumberContaining(String driverName, String cabNumber);
-    List<Cab> findByAvailable(boolean available);
+    List<Cab> findByAvailableTrue();
 
 
 }

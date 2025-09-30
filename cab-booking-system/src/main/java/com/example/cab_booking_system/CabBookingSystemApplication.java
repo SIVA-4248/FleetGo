@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class CabBookingSystemApplication {
+public class CabBookingSystemApplication  {
 
 	public static void main(String[] args) {
 
@@ -16,7 +16,8 @@ public class CabBookingSystemApplication {
 
     @GetMapping("/hello")
     public  String hello(){
-        return "Hello World!";
+        return "Hello Welcome to the spring World!";
     }
+
 
 }
