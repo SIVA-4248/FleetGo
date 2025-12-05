@@ -1,7 +1,7 @@
 # FleetGo — Cab Booking System (Backend)
 
 ## Tech
-Spring Boot, Spring Data JPA, Hibernate, MySQL, Spring Security (Basic), Maven
+Java, Spring Boot, Spring Data JPA, Hibernate, MySQL, Spring Security (Basic), Maven
 
 ## Run locally
 1. Create MySQL DB `Cab_Booking`
